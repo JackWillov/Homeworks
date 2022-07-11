@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Order(1)
-public class Dog implements Animals{
+public class Dog implements Animals {
 
     public String getAnimal() {
         return "Dog";

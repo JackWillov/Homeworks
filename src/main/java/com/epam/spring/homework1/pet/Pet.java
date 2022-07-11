@@ -11,8 +11,9 @@ public class Pet {
 
     @Autowired
     private List<Animals> animalsList;
-    public void printPets(){
-        for (Animals animal : animalsList){
+
+    public void printPets() {
+        for (Animals animal : animalsList) {
             System.out.println(animal.getAnimal());
         }
     }

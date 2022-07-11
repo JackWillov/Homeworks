@@ -11,7 +11,7 @@ public class OtherBeanB {
 
     @Autowired
     public void setBeanB(BeanB beanB) {
-       this.beanB = beanB;
+        this.beanB = beanB;
         System.out.println(this.getClass().getSimpleName() + ", " + beanB.getClass().getSimpleName() + " was injected through the setter");
     }
 }
