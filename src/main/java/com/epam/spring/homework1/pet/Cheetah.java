@@ -7,6 +7,5 @@ public class Cheetah implements Animals {
 
     public String getAnimal() {
         return "Cheetah";
-
     }
 }

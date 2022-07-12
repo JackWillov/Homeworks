@@ -7,6 +7,5 @@ public class Cat implements Animals {
 
     public String getAnimal() {
         return "Cat";
-
     }
 }

@@ -7,6 +7,5 @@ public class Spider implements Animals {
 
     public String getAnimal() {
         return "Spider";
-
     }
 }

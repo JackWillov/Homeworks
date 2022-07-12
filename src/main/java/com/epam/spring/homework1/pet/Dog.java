@@ -9,6 +9,5 @@ public class Dog implements Animals {
 
     public String getAnimal() {
         return "Dog";
-
     }
 }
